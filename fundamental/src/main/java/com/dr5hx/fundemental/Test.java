@@ -34,6 +34,6 @@ public class Test {
     public static void main(String[] args) {
         ConcreteClass concreteClass = new ConcreteClass();
         //invoke method a
-        concreteClass.a(List.of(1), Map.of(1, 2));
+//        concreteClass.a(List.of(1), Map.of(1, 2));
     }
 }
