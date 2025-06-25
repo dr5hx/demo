@@ -1,13 +1,13 @@
 package com.dr5hx.fundemental;
 
 /**
- * fundemental.TestStop
- * Desc:
+ * fundemental.ShutdownHookDemo
+ * Desc: Demonstrates the use of shutdown hooks in Java
  * Date:2024/2/22 16:28
  * Author:zhouchang
  * Email:zhouchang@asiainfo.com
  */
-public class TestStop {
+public class ShutdownHookDemo {
     public static void main(String[] args) {
         try {
             System.out.println("1111");

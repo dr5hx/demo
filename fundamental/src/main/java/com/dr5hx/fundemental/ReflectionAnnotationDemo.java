@@ -4,15 +4,15 @@ import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedType;
 
 /**
- * fundemental.ReTest
- * Desc:
+ * fundemental.ReflectionAnnotationDemo
+ * Desc: Demonstrates Java reflection for examining annotations and interfaces
  * Date:2023/11/21 16:17
  * Author:zhouchang
  * Email:zhouchang@asiainfo.com
  */
-public class ReTest {
+public class ReflectionAnnotationDemo {
     public static void main(String[] args) {
-        Class<Demo> demoClass = Demo.class;
+        Class<IntegerOverflowDemo> demoClass = IntegerOverflowDemo.class;
         for (Annotation annotation : demoClass.getAnnotations()) {
             System.out.println(annotation.getClass().getName());
         }

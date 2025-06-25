@@ -1,16 +1,16 @@
 package com.dr5hx.fundemental;
 
 /**
- * fundemental.Demo
- * Desc:
+ * fundemental.IntegerOverflowDemo
+ * Desc: Demonstrates integer overflow and basic class structure
  * Date:2023/11/21 16:17
  * Author:zhouchang
  * Email:zhouchang@asiainfo.com
  */
-public class Demo {
+public class IntegerOverflowDemo {
     private final int anInt;
 
-    public Demo(int anInt) {
+    public IntegerOverflowDemo(int anInt) {
         this.anInt = anInt;
     }
 

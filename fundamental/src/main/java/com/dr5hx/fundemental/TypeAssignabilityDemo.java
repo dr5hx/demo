@@ -5,13 +5,13 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * fundemental.TestAssignable
- * Desc:
+ * fundemental.TypeAssignabilityDemo
+ * Desc: Demonstrates Java's isAssignableFrom and isInstance methods for type checking
  * Date:2024/6/28 11:28
  * Author:zhouchang
  * Email:zhouchang@asiainfo.com
  */
-public class TestAssignable {
+public class TypeAssignabilityDemo {
     public static void main(String[] args) {
         System.out.println(ArrayList.class.isAssignableFrom(List.class));
         System.out.println(List.class.isAssignableFrom(ArrayList.class));

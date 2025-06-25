@@ -6,17 +6,17 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * fundemental.Test
- * Desc:
+ * fundemental.GenericOverrideDemo
+ * Desc: Demonstrates Java generics and method overriding concepts
  * Date:2023/12/8 15:50
  * Author:zhouchang
  * Email:zhouchang@asiainfo.com
  */
-abstract class AbstractClass {
+abstract class AbstractGenericClass {
     public abstract <V extends List, S extends Map> void a(V a, S r);
 }
 
-class ConcreteClass extends AbstractClass {
+class ConcreteGenericClass extends AbstractGenericClass {
 
     public void a(ArrayList a, HashMap r) {
         // 这里实现你的代码
@@ -30,9 +30,9 @@ class ConcreteClass extends AbstractClass {
     }
 }
 
-public class Test {
+public class GenericOverrideDemo {
     public static void main(String[] args) {
-        ConcreteClass concreteClass = new ConcreteClass();
+        ConcreteGenericClass concreteClass = new ConcreteGenericClass();
         //invoke method a
 //        concreteClass.a(List.of(1), Map.of(1, 2));
     }
