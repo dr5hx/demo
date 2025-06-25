@@ -1,10 +1,10 @@
-package com.dr5hx.fundemental;
+package com.dr5hx.fundamental;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.AnnotatedType;
 
 /**
- * fundemental.ReflectionAnnotationDemo
+ * fundamental.ReflectionAnnotationDemo
  * Desc: Demonstrates Java reflection for examining annotations and interfaces
  * Date:2023/11/21 16:17
  * Author:zhouchang

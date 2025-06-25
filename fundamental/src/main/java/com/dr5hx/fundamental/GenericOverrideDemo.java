@@ -1,4 +1,4 @@
-package com.dr5hx.fundemental;
+package com.dr5hx.fundamental;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * fundemental.GenericOverrideDemo
+ * fundamental.GenericOverrideDemo
  * Desc: Demonstrates Java generics and method overriding concepts
  * Date:2023/12/8 15:50
  * Author:zhouchang

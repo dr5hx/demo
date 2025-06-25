@@ -1,7 +1,7 @@
-package com.dr5hx.fundemental;
+package com.dr5hx.fundamental;
 
 /**
- * fundemental.ShutdownHookDemo
+ * fundamental.ShutdownHookDemo
  * Desc: Demonstrates the use of shutdown hooks in Java
  * Date:2024/2/22 16:28
  * Author:zhouchang

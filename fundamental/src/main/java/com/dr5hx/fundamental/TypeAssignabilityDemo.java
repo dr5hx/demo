@@ -1,11 +1,11 @@
-package com.dr5hx.fundemental;
+package com.dr5hx.fundamental;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
 /**
- * fundemental.TypeAssignabilityDemo
+ * fundamental.TypeAssignabilityDemo
  * Desc: Demonstrates Java's isAssignableFrom and isInstance methods for type checking
  * Date:2024/6/28 11:28
  * Author:zhouchang

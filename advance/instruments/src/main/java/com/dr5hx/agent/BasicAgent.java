@@ -14,9 +14,11 @@ public class BasicAgent {
         inst.addTransformer(new ClassFileTransformer() {
             @Override
             public byte[] transform(ClassLoader loader, String className, Class<?> classBeingRedefined, ProtectionDomain protectionDomain, byte[] classfileBuffer) throws IllegalClassFormatException {
-                if (className != null && className.startsWith("com/dr5hx/app")) {
-                    System.out.println("加载类: " + className);
-                }
+                System.out.println("加载类: " + className);
+//                if (className != null) {
+//                    System.out.println("加载类: " + className);
+//                    System.out.flush(); // 强制刷新输出
+//                }
                 return null; // 返回null表示不修改字节码
             }
         }, false);

@@ -1,9 +1,9 @@
-package com.dr5hx.fundemental;
+package com.dr5hx.fundamental;
 
 import java.math.BigDecimal;
 
 /**
- * fundemental.NumericPrecisionDemo
+ * fundamental.NumericPrecisionDemo
  * Desc: Demonstrates numeric precision issues and comparison methods in Java
  * Date:2024/5/27 10:51
  * Author:zhouchang
