@@ -1,4 +1,4 @@
-package com.dr5hx.agent;
+package com.dr5hx.agent.basic;
 
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;
