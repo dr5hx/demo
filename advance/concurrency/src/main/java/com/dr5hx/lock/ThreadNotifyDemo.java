@@ -30,13 +30,14 @@ public class ThreadNotifyDemo {
         }
        
         synchronized (test) {
+            System.out.println("notify one thread");
             test.notify(); // Wake up one waiting thread
         }
         Thread.sleep(3000);
         System.out.println("-----------分割线-------------");
-
-        synchronized (test) {
-            test.notifyAll(); // Wake up all waiting threads
-        }
+// If the code below is not executed, the JVM will not terminate because remaining threads are still waiting for notification
+//        synchronized (test) {
+//            test.notifyAll(); // Wake up all waiting threads
+//        }
     }
 }
