@@ -17,10 +17,11 @@ public class BigDecimalDemo {
 //        test_round_regular("-1.3259999901599999999999999", 10);
 //        test_round_regular("-1.3259999901699999999999999", 10);
 //        test_round_regular("-1.3259999901499999999999999", 10);
-        BigDecimal bigDecimal = new BigDecimal("-1.25");
-        System.out.println(bigDecimal.setScale(1, BigDecimal.ROUND_HALF_UP));
-        System.out.println(bigDecimal.setScale(1, BigDecimal.ROUND_HALF_DOWN));
-        System.out.println(bigDecimal.setScale(1, BigDecimal.ROUND_HALF_EVEN));
+        test_decimal();
+        BigDecimal bigDecimal = new BigDecimal("-1.258");
+        System.out.println(bigDecimal.setScale(2, BigDecimal.ROUND_HALF_UP));
+        System.out.println(bigDecimal.setScale(2, BigDecimal.ROUND_HALF_DOWN));
+        System.out.println(bigDecimal.setScale(2, BigDecimal.ROUND_HALF_EVEN));
         BigDecimal bigDecimal1 = new BigDecimal("-1.04");
         System.out.println(bigDecimal1.setScale(1, BigDecimal.ROUND_HALF_UP));
         System.out.println(bigDecimal1.setScale(1, BigDecimal.ROUND_HALF_DOWN));

@@ -1,5 +1,9 @@
 package com.dr5hx.lock;
 
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Optional;
+
 /**
  * ThreadJoinDemo
  * Desc: Demonstrates the usage of Thread.join() method
@@ -21,6 +25,7 @@ public class ThreadJoinDemo implements Runnable {
     }
 
     public static void main(String[] args) {
+        Optional<String> max = Arrays.stream(args).max(Comparator.comparing(String::length));
         for (int i = 0; i < 5; i++) {
             Thread test = new Thread(new ThreadJoinDemo());
             test.start();
